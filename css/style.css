@@ -8,7 +8,7 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	background: #033;
-	color: #eee;
+	color: #7b7b7b;
 	border-radius: 20px;
 	border-style: solid;
 	border-width: 5px;
@@ -40,8 +40,3 @@ code {
 	overflow-x: auto;
 	background: #1d2021;
 }
-
-#playlist,audio{background:#666;width:400px;padding:20px;}
-.active a{color:#5DB0E6;text-decoration:none;}
-li a{color:#eeeedd;background:#333;padding:5px;display:block;}
-li a:hover{text-decoration:none;}
