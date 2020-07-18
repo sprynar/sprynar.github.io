@@ -8,7 +8,7 @@ body {
 	margin-right: auto;
 	margin-top: 30px;
 	background: #033;
-	color: #7b7b7b;
+	color: #eee;
 	border-radius: 20px;
 	border-style: solid;
 	border-width: 5px;
@@ -24,7 +24,7 @@ h1 {
 	text-shadow: 3px 0 black, 3px 3px black, 0 3px black;
 	}
 
-a { color: lightblue; }
+a { color: #eee; }
 
 .image {
 	margin: auto;
