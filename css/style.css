@@ -24,7 +24,7 @@ h1 {
 	text-shadow: 3px 0 black, 3px 3px black, 0 3px black;
 	}
 
-a { color: #eee; }
+a { color: #eee; text-decoration: none; }
 
 .image {
 	margin: auto;
