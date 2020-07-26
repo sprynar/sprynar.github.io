@@ -13,9 +13,19 @@ object[width="360"][height="60"], object[width="370"][height="170"], object[widt
 object[width="738"][height="90"], object[width="750"][height="100"], object[width="758"][height="93"], object[width="760"][height="90"], object[width="770"][height="100"], object[width="800"][height="128"], object[width="800"][height="200"], object[width="800"][height="90"], object[width="850"][height="100"], object[width="850"][height="83"], object[width="880"][height="80"], object[width="900"][height="100"], object[width="900"][height="150"], object[width="900"][height="68"], object[width="900"][height="90"], object[width="940"][height="120"], object[width="950"][height="150"], object[width="950"][height="90"], object[width="951"][height="90"], object[width="980"][height="100"], object[width="980"][height="250"], object[width="982"][height="150"], object[width="990"][height="206"]
 </style></head>
 <body><h1>Video test</h1>
-  
+  <script>var elem = document.getElementById("vtest");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+} else if (elem.mozRequestFullScreen) {
+  elem.mozRequestFullScreen();
+} else if (elem.webkitRequestFullscreen) {
+  elem.webkitRequestFullscreen();
+} else if (elem.msRequestFullscreen) { 
+  elem.msRequestFullscreen();
+}
+    </script>
     <center>  
-     <video width="640" height="360" controls autoplay>
+     <video id="vtest" width="640" height="360" controls autoplay>
   <source src="/mp4/videotest0.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
