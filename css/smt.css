@@ -1,0 +1,42 @@
+html {
+	background: linear-gradient(grey, lightgrey) fixed;
+	padding-bottom: 400px;
+}
+body {
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background: #7b7b7b;
+	color: #eee;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #555;
+	padding: 10px;
+	 }
+
+h1,h2,h3,h4 {
+	text-align: center;
+	 }
+h1 {
+	font-size: 48px;
+	text-shadow: 3px 0 black, 3px 3px black, 0 3px black;
+	}
+
+a { color: #eee; text-decoration: none; }
+
+.image {
+	margin: auto;
+}
+pre {
+	border: 3px solid #928374;
+	padding: 5px;
+	display: block;
+	background: #1d2021;
+}
+code {
+	color: #b8bb26;
+	overflow-x: auto;
+	background: #1d2021;
+}
