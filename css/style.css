@@ -18,6 +18,7 @@ body {
 
 h1,h2,h3,h4 {
 	text-align: center;
+	font-family: monospace;
 	 }
 h1 {
 	font-size: 48px;
@@ -39,4 +40,7 @@ code {
 	color: #b8bb26;
 	overflow-x: auto;
 	background: #1d2021;
+}
+p {
+	font-family: monospace;
 }
