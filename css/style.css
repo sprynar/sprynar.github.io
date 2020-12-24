@@ -1,5 +1,5 @@
 html {
-	background: linear-gradient(grey, lightgrey) fixed;
+	background: linear-gradient(rgb(32, 17, 17), rgb(87, 87, 87)) fixed;
 	padding-bottom: 400px;
 }
 body {
