@@ -1,3 +1,3 @@
-# Petrova stránka
+# Petr's website
 
 ## HTML + CSS
