@@ -114,3 +114,9 @@ footer a,footer a:visited{
         url('customfont.ttf')  format('truetype'), 
         url('customfont.woff') format('woff');
 }
+@font-face {
+  font-family: 'mujjapanfont';
+  src:  url('japanfont.woff2') format('woff2'),
+        url('japanfont.ttf')  format('truetype'), 
+        url('japanfont.woff') format('woff');
+}
