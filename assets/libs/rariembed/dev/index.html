@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;rariembed> Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../rariembed.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <rari-embed tokenAddress='0x3b3ee1931dc30c1957379fac9aba94d1c48a5405' tokenId="37192" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0x3f0785095a660fee131eebcd5aa243e529c21786' tokenId="2411" width="800px">
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0xb9fa2308a469a1ebca9fd070f6ba6d211ffa5874' tokenId="20" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0x930d6c50fc119ce0838084ba255bc8729d4b167a' tokenId="9" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0x06d1fcd527e608abd94e33c2dd62f585c768d814' tokenId="81" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <br />
+    <rari-embed tokenAddress='0xb5f7d50defe738f7c73bf965cd369ac15fa77de9' tokenId="0" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <rari-embed tokenAddress='A.01ab36aaf654a13e.RaribleNFT' tokenId="19674" blockchain="flow" darkMode>
+      <p>This is child content</p>
+    </rari-embed>
+    <rari-embed darkmode="" tokenaddress="A.01ab36aaf654a13e.RaribleNFT" tokenid="14822" blockchain="FLOW"></rari-embed>
+    <rari-embed darkmode="" tokenaddress="0xd07dc4262bcdbf85190c01c996b4c06a461d2430" tokenid="26195"></rari-embed>
+  </body>
+
+</html>
