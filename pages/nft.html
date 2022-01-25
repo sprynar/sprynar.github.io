@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @@include("../partials/head.html")
+  <title>sprynar.github.io</title>
+</head>
+
+<body class="bg-light"> 
+  <div id="db-wrapper">
+    <!-- navbar vertical -->
+    @@include('../partials/navbar-vertical.html', { "page": "nft", "page_group": "pages" })
+    <!-- page content -->
+    <div id="page-content">
+      @@include("../partials/header.html")
+      <!-- Container fluid -->
+      <div class="container-fluid p-6">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <!-- Page header -->
+           
+              <div class="border-bottom pb-4 mb-0 ">
+                <h3 class="mb-0 fw-bold">A showcase of some NFTs I made</h3>
+            </div>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="py-6">
+                    <rari-embed tokenAddress='A.01ab36aaf654a13e.RaribleNFT' tokenId="95984" blockchain="FLOW"></rari-embed>
+                    <script src="../assets/js/rariembed.js" type="module"></script>
+                    <p></p>
+                    <rari-embed tokenAddress='A.01ab36aaf654a13e.RaribleNFT' tokenId="95556" blockchain="FLOW"></rari-embed>
+                    <script src="../assets/js/rariembed.js" type="module"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  @@include("../partials/scripts.html")
+</body>
+
+</html>

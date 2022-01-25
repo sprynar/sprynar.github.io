@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @@include("partials/head.html")
+  <title>sprynar.github.io</title>
+</head>
+
+<body class="bg-light"> 
+  <div id="db-wrapper">
+    <!-- navbar vertical -->
+    @@include('partials/navbar-vertical.html', { "page": "profile", "page_group": "pages" })
+    <!-- page content -->
+    <div id="page-content">
+      @@include("partials/header.html")
+      <!-- Container fluid -->
+      <div class="container-fluid p-6">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <!-- Page header -->
+           
+              <div class="border-bottom pb-4 mb-4 ">
+               
+                  <h3 class="mb-0 fw-bold">Overview</h3>
+              
+           
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+            <!-- Bg -->
+            <div class="pt-20 rounded-top" style="background:
+                url(assets/images/background/profile-cover.jpg) no-repeat;
+                background-size: cover;">
+            </div>
+            <div class="bg-white rounded-bottom smooth-shadow-sm ">
+              <div class="d-flex align-items-center justify-content-between
+                  pt-4 pb-6 px-4">
+                <div class="d-flex align-items-center">
+                  <!-- avatar -->
+                  <div class="avatar-xxl me-2
+                      position-relative d-flex justify-content-end
+                      align-items-end mt-n10">
+                    <img src="assets/images/avatar/avatar-1.jpg" class="avatar-xxl
+                        rounded-circle border border-4 border-white-color-40" alt="">
+                  </div>
+                  <!-- text -->
+                  <div class="lh-1">
+                    <h2 class="mb-0">Petr Špryňar</h2>
+                    <p class="mb-0 d-block"><a href="https://twitter.com/aninft1">@aninft1</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="py-6">
+          <!-- row -->
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-12 mb-6">
+              <!-- card -->
+              <div class="card">
+                <!-- card body -->
+                <div class="card-body">
+                  <!-- card title -->
+                  <h4 class="card-title">About me</h4>
+                  <span class="text-uppercase fw-medium text-dark
+                      fs-5 ls-2">Bio</span>
+                  <!-- text -->
+                  <p class="mt-2 mb-6">I like asian culture, languages. I also like everything Linux.
+                  </p>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-12 mb-5">
+                      <!-- text -->
+                      <h6 class="text-uppercase fs-5 ls-2">Occupation
+                      </h6>
+                      <p class="mb-0">Student</p>
+                    </div>
+                    <div class="col-6 mb-5">
+                      <h6 class="text-uppercase fs-5 ls-2">ETH </h6>
+                      <p class="mb-0">0x28ee9A687b1a7c5233DB56f5f3150610df6BFe99</p>
+                    </div>
+                    <div class="col-6 mb-5">
+                      <h6 class="text-uppercase fs-5 ls-2">FLOW</h6>
+                      <p class="mb-0">0x23f2c9a90bc1ee75</p>
+                    </div>
+                    <div class="col-6">
+                      <h6 class="text-uppercase fs-5 ls-2">Date of Birth </h6>
+                      <p class="mb-0">07.19.200X</p>
+                    </div>
+                    <div class="col-6">
+                      <h6 class="text-uppercase fs-5 ls-2">Location
+                      </h6>
+                      <p class="mb-0">Czech Republic</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-12 mb-3">
+              <!-- card -->
+              <div class="card">
+                <!-- card body -->
+                <div class="card-body p-6 mb-4">
+                  <!-- text -->
+                  <h2 class="mb-3"><img src='assets/fonts/rarible/rarible.svg'> <img src='assets/fonts/rarible/raribletext.svg'></h2>
+                  <p class="mb-3">Probably the best NFT marketplace</p>
+                  <!-- button -->
+                  <a href="https://rarible.com/aninft/sale" class="btn btn-outline-primary">Check out my profile</a>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  @@include("partials/scripts.html")
+</body>
+
+</html>

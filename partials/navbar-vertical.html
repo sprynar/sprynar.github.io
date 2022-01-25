@@ -1,0 +1,43 @@
+ <!-- Sidebar -->
+ <nav class="navbar-vertical navbar">
+    <div class="nav-scroller">
+        <!-- Brand logo -->
+        <center><a class="navbar-brand" href="@@webRoot/index.html">
+            <img src="@@webRoot/assets/images/brand/logo/logo.png" alt="" />
+        </a></center>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav flex-column" id="sideNavbar">
+            <li class="nav-item">
+                <a class="nav-link has-arrow @@if (context.page ===  'profile') { active }" href="@@webRoot/index.html">
+                    <i data-feather="home" class="nav-icon icon-xs me-2"></i>  Home
+                </a>
+
+            </li>
+             <!-- Nav item -->
+             <li class="nav-item">
+                <a class="nav-link has-arrow @@if (context.page_group !== 'pages') { collapsed }" href="#!" data-bs-toggle="collapse" data-bs-target="#navPages" aria-expanded="false" aria-controls="navPages">
+                    <i
+                    data-feather="layers"
+
+                    class="nav-icon icon-xs me-2">
+                </i> Pages
+                </a>
+
+                <div id="navPages" class="collapse @@if (context.page_group === 'pages') { show }" data-bs-parent="#sideNavbar">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @@if (context.page === 'software') { active } "  href="@@webRoot/pages/software.html" >Software</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @@if (context.page === 'nft') { active }" href="@@webRoot/pages/nft.html">
+                                NFT
+                </a>
+                        </li>
+                    </ul>
+                </div>
+
+                </li>
+                </div>
+</nav>
